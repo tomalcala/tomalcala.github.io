@@ -78,6 +78,9 @@ export default function Home() {
                 <a href="#experience" className="button is-outlined is-danger is-rounded">Experience</a>
               </li>
               <li>
+                <a href="#works" className="button is-outlined is-success is-rounded">Works</a>
+              </li>
+              <li>
                 <a href="#education" className="button is-outlined is-info is-rounded">Education</a>
               </li>
             </ul>
@@ -317,8 +320,8 @@ export default function Home() {
               • Build the website
             </div>
 
-            <div className="level" id="works">
-              Development works
+            <div className="level is-inline-grid" id="works">
+              <h1 className="title has-text-success">Development works</h1>
 
               • EEVET (https://eevet.com): Design the machine learning platform, write the core of it, integrate natural langage processing, a recommendation engine. Work with the Chief Data Officer to make the recommender more accurate.
               • Event Escrow (https://eventescrow.com/): Move payment system from Braintree to Stripe, rewrite the escrow funding, release, arbitration, invoice features and integrate them with Stripe. Fix critical Django application issues with the database structure, migrations and user registration. Fix development environment stack and stage environment. Technologies : Python, Django, Shell Scripting, Ansible, vagrant, PosgreSQL, Jquery, etc.
