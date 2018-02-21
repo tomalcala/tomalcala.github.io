@@ -14,20 +14,20 @@ export default function Home() {
           <div className="level-left">
             <div className="level-item is-inline-grid">
               <div className="is-inline-block">
-              <h1 className="title">
-                Thomas ALCALA SCHNEIDER
-              </h1>
-            </div>
-            <div className="is-inline-block">
-              <p className="subtitle ">
-                French/Mexican, born in 1985.
-              </p>
-              <ul>
-                <li>
-                  Looking for challenges.
-                </li>
-              </ul>
-            </div>
+                <h1 className="title">
+                  Thomas ALCALA SCHNEIDER
+                </h1>
+              </div>
+              <div className="is-inline-block">
+                <p className="subtitle ">
+                  French/Mexican, born in 1985.
+                </p>
+                <ul>
+                  <li>
+                    Looking for challenges.
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
 
@@ -39,11 +39,11 @@ export default function Home() {
               </li>
               <li>
                 <i className="fas fa-at" />
-                thomas.alcala@gmail.com, thomas@eevet.com
+                thomas.alcala@gmail.com
               </li>
               <li>
                 <i className="fab fa-skype" />
-                Skype: thomas.alcala
+                thomas.alcala
               </li>
               <li>
                 <i className="fas fa-mouse-pointer" />
@@ -59,7 +59,7 @@ export default function Home() {
               </li>
               <li>
                 <i className="fab fa-github" />
-                GitHub: https://github.com/ThomasMarcel
+                https://tomalcala.github.io
               </li>
             </ul>
           </div>
@@ -69,72 +69,101 @@ export default function Home() {
 
       <div className="container">
         <div className="columns">
-          <div className="column is-2 has-text-centered">
+          <div className="column is-one-fifth has-text-centered summary">
             <ul>
               <li>
                 <a href="#skills" className="button is-outlined is-primary is-rounded">Skills</a>
               </li>
               <li>
-                <a href="#experience" className="button is-outlined is-primary is-rounded">Experience</a>
+                <a href="#experience" className="button is-outlined is-danger is-rounded">Experience</a>
               </li>
               <li>
-                <a href="#education" className="button is-outlined is-primary is-rounded">Education</a>
+                <a href="#education" className="button is-outlined is-info is-rounded">Education</a>
               </li>
             </ul>
           </div>
-          <div className="column 237">
-            <div className="level" id="skills">
-              1. summary of Qualifications
+          <div className="column">
+            <div className="level is-inline-grid" id="skills">
+              <div className="is-margin-bottom-20">
+                <h2 className="title has-text-primary">Skills</h2>
 
-              • Python full stack development and scripting (Django, Flask)
-              • Ruby full stack development and scripting (Ruby on Rails)
-              • Angular, React single page application frameworks development with TypeScript, JavaScript, ES6+, JSX, etc
-              • Project Management software (YouTrack, Jira, Trello)
-              • Frontend development with Jquery
-              • Frontend development HTML5 CSS3, LESS and SCSS
-              • Bootstrap, Material, Bulma frontend frameworks development
-              • PHP full stack development (Laravel, Moodle, Wordpress)
-              • IaaS administration (AWS, Azure, Openshift, Heroku, Google Cloud)
-              • Linux administration
-              • Databases administration & development (MongoDB, MySQL, PostgreSQL)
-              • Stripe API development
-              • Facebook App development with Facebook API and SDKs
-              • Development with API and SDK (Slack, Facebook, Twitter, Youtube, Foursquare, Google Maps)
-              • Knowledge in Salesforce (for Business Intelligence and as a developer with its API and SDK)
-              • Administration and usage of version control solutions (Git, CVS, SVN)
-              • Knowledge in digital marketing (Google Analytics, AdWords, massive mailing...) and development of a “smart” CRM (consolidating existing data) with API for implementation
-              • Computer-assisted design (GIMP, Photoshop), WEB design
+                <ul>
+                  <li>Python full stack development and scripting (Django, Flask)</li>
+                  <li>Ruby full stack development and scripting (Ruby on Rails)</li>
+                  <li>Angular, React single page application frameworks development with TypeScript, JavaScript, ES6+, JSX, etc</li>
+                  <li>Project Management software (YouTrack, Jira, Trello)</li>
+                  <li>Frontend development with Jquery</li>
+                  <li>Frontend development HTML5 CSS3, LESS and SCSS</li>
+                  <li>Bootstrap, Material, Bulma frontend frameworks development</li>
+                  <li>PHP full stack development (Laravel, Moodle, Wordpress)</li>
+                  <li>IaaS administration (AWS, Azure, Openshift, Heroku, Google Cloud)</li>
+                  <li>Linux administration</li>
+                  <li>Databases administration & development (MongoDB, MySQL, PostgreSQL)</li>
+                  <li>Stripe API development</li>
+                  <li>Facebook App development with Facebook API and SDKs</li>
+                  <li>Development with API and SDK (Slack, Facebook, Twitter, Youtube, Foursquare, Google Maps)</li>
+                  <li>Knowledge in Salesforce (for Business Intelligence and as a developer with its API and SDK)</li>
+                  <li>Administration and usage of version control solutions (Git, CVS, SVN)</li>
+                  <li>Knowledge in digital marketing (Google Analytics, AdWords, massive mailing...) and development of a “smart” CRM (consolidating existing data) with API for implementation</li>
+                  <li>Computer-assisted design (GIMP, Photoshop), WEB design</li>
+                </ul>
+              </div>
+
+              <div className="is-margin-bottom-20">
+                <h3 className="subtitle">CERTIFICATES</h3>
+
+                <ul>
+                  <li>AWS – Architecting on AWS, advanced concepts 2014</li>
+                  <li>AWS Technical Professional Accreditation 2014</li>
+                  <li>AWS Business Professional Accreditation 2014</li>
+                  <li>Six Sigma Yellow Belt</li>
+                </ul>
+              </div>
+
+              <div className="is-margin-bottom-20">
+                <h3 className="subtitle">COURSES</h3>
+
+                <ul>
+                  <li>Coursera: Programming Mobile Applications for Android Handheld Systems – Grade achieved: 97.9%</li>
+                  <li>Six Sigma: Yellow Belt</li>
+                </ul>
+              </div>
             </div>
 
-            2. CERTIFICATES
+            <div className="level is-inline-grid icon-group" id="experience">
+              <h2 className="title has-text-danger">EXPERIENCE</h2>
 
-            • AWS – Architecting on AWS, advanced concepts 2014
-            • AWS Technical Professional Accreditation 2014
-            • AWS Business Professional Accreditation 2014
-            • Six Sigma Yellow Belt
+              <div className="is-margin-bottom-20">
+                <div className="hero is-danger is-outlined is-margin-bottom-10">
+                  <div className="hero-body">
+                    <h3 className="title">CTO</h3>
+                    <h4 className="subtitle">EEVET</h4>
+                    <h4 className="subtitle">June 2016 – Current</h4>
+                    <p>
+                      (formerly Event Escrow)
+                    </p>
+                    <div className="level">
+                      <p className="level-left">
+                        <i className="fas fa-map-marker" />
+                        Nashville, TN/San Antonio, TX
+                      </p>
+                      <p className="level-right">
+                        <i className="fas fa-mouse-pointer" />
+                        https://eevet.com
+                      </p>
+                    </div>
+                  </div>
+                </div>
 
-            3. COURSES
+                EEVET is an Artificial Intelligence that can book show. She can predict the success of a given show, give recommendations on who to book and where, take feedback for machine learning to be able to give better recommendations, hold money in escrow, and a number of other features.
 
-            • Coursera: Programming Mobile Applications for Android Handheld Systems – Grade achieved: 97.9%
-            • Six Sigma: Yellow Belt
+                Proud alumni of the Project Music accelerator program in the 2017 cohort from the Nashville Entrepreneur Center. (Jan 2017 – May 2017)
 
-            <div className="level" id="experience">
-              4. RELEVANT EXPERIENCE
-
-              5. EEVET
-              (formerly Event Escrow)
-              June 2016 – Current
-              Nashville, TN/San Antonio, TX
-              CTO (https://eevet.com/)
-
-              EEVET is an Artificial Intelligence that can book show. She can predict the success of a given show, give recommendations on who to book and where, take feedback for machine learning to be able to give better recommendations, hold money in escrow, and a number of other features.
-
-              Proud alumni of the Project Music accelerator program in the 2017 cohort from the Nashville Entrepreneur Center. (Jan 2017 – May 2017)
-
-              As the CTO, my main tasks are to:
-              • Design the strategic plan for the platform
-              • Design the machine learning platform from the ground up
-              • Supervise a team of employees and contractors while working on the newest features
+                As the CTO, my main tasks are to:
+                • Design the strategic plan for the platform
+                • Design the machine learning platform from the ground up
+                • Supervise a team of employees and contractors while working on the newest features
+              </div>
 
               6. Event Escrow
               June 2016 – Current
@@ -303,8 +332,8 @@ export default function Home() {
               • More on https://github.com/ThomasMarcel .
             </div>
 
-            <div className="level" id="education">
-              EDUCATION
+            <div className="level is-inline-grid" id="education">
+              <h1 className="title has-text-info">EDUCATION</h1>
               • 2007 BTS – Informatique de Gestion option Administrateur de réseaux locaux d’entreprise (Network & System Administrator) - Lycée Malraux, Le Mans, FRANCE.
               • 2004 DEUST – Informatique Systèmes et Réseaux (computer science, systems and networks) - Université du Maine Le Mans, FRANCE
               • 2003 Baccalaureat Sciences Economiques et Sociales (Economical and Social Sciences) – Lycée Montesquieu, Le Mans, FRANCE.
