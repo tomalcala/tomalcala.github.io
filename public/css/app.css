@@ -9,3 +9,19 @@
 .is-inline-grid {
   display: inline-grid;
 }
+
+.is-margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.is-margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.icon-group i, .icon-group svg {
+  margin: 5px;
+}
+
+.summary li {
+  margin: 10px;
+}
