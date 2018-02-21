@@ -137,7 +137,7 @@ export default function Home() {
               <h2 className="title has-text-danger">EXPERIENCE</h2>
 
               <div className="is-margin-bottom-20">
-                <div className="hero is-danger is-outlined is-margin-bottom-10">
+                <div className="hero is-light is-outlined is-margin-bottom-10">
                   <div className="hero-body">
                     <h3 className="title">CTO</h3>
                     <h4 className="subtitle">EEVET</h4>
@@ -173,7 +173,7 @@ export default function Home() {
               </div>
 
               <div className="is-margin-bottom-20">
-                <div className="hero is-danger is-outlined is-margin-bottom-10">
+                <div className="hero is-light is-outlined is-margin-bottom-10">
                   <div className="hero-body">
                     <h3 className="title">Lead developer and administrator</h3>
                     <h4 className="subtitle">Event Escrow</h4>
@@ -205,7 +205,7 @@ export default function Home() {
               </div>
 
               <div className="is-margin-bottom-20">
-                <div className="hero is-danger is-outlined is-margin-bottom-10">
+                <div className="hero is-light is-outlined is-margin-bottom-10">
                   <div className="hero-body">
                     <h3 className="title">
                       Senior Software Engineer
@@ -252,7 +252,7 @@ export default function Home() {
               </div>
 
               <div className="is-margin-bottom-20">
-                <div className="hero is-danger is-outlined is-margin-bottom-10">
+                <div className="hero is-light is-outlined is-margin-bottom-10">
                   <div className="hero-body">
                     <h3 className="title">
                       Senior Software Engineer, lead developer and administrator
@@ -311,7 +311,7 @@ export default function Home() {
               </div>
 
               <div className="is-margin-bottom-20">
-                <div className="hero is-danger is-outlined is-margin-bottom-10">
+                <div className="hero is-light is-outlined is-margin-bottom-10">
                   <div className="hero-body">
                     <h3 className="title">
                       Senior Software Engineer, lead developer and administrator
@@ -371,7 +371,7 @@ export default function Home() {
               </div>
 
               <div className="is-margin-bottom-20">
-                <div className="hero is-danger is-outlined is-margin-bottom-10">
+                <div className="hero is-light is-outlined is-margin-bottom-10">
                   <div className="hero-body">
                     <h3 className="title">
                       Senior Software Engineer, lead developer and administrator
@@ -413,7 +413,7 @@ export default function Home() {
               </div>
 
               <div className="is-margin-bottom-20">
-                <div className="hero is-danger is-outlined is-margin-bottom-10">
+                <div className="hero is-light is-outlined is-margin-bottom-10">
                   <div className="hero-body">
                     <h3 className="title">
                       Roaming analyst - Automation and support
@@ -450,7 +450,7 @@ export default function Home() {
               </div>
 
               <div className="is-margin-bottom-20">
-                <div className="hero is-danger is-outlined is-margin-bottom-10">
+                <div className="hero is-light is-outlined is-margin-bottom-10">
                   <div className="hero-body">
                     <h3 className="title">
                       Networks and systems administrator and level 2 supporter
@@ -484,7 +484,7 @@ export default function Home() {
               </div>
 
               <div className="is-margin-bottom-20">
-                <div className="hero is-danger is-outlined is-margin-bottom-10">
+                <div className="hero is-light is-outlined is-margin-bottom-10">
                   <div className="hero-body">
                     <h3 className="title">
                       Software engineer, networks and systems administrator
@@ -520,7 +520,7 @@ export default function Home() {
               </div>
 
               <div className="is-margin-bottom-20">
-                <div className="hero is-danger is-outlined is-margin-bottom-10">
+                <div className="hero is-light is-outlined is-margin-bottom-10">
                   <div className="hero-body">
                     <h3 className="title">
                       Networks and systems administrator (intern)
@@ -553,7 +553,7 @@ export default function Home() {
               </div>
 
               <div className="is-margin-bottom-20">
-                <div className="hero is-danger is-outlined is-margin-bottom-10">
+                <div className="hero is-light is-outlined is-margin-bottom-10">
                   <div className="hero-body">
                     <h3 className="title">
                       Networks and systems administrator (intern)
@@ -587,7 +587,7 @@ export default function Home() {
               </div>
 
               <div className="is-margin-bottom-20">
-                <div className="hero is-danger is-outlined is-margin-bottom-10">
+                <div className="hero is-light is-outlined is-margin-bottom-10">
                   <div className="hero-body">
                     <h3 className="title">
                       Software Developer (intern)
@@ -625,179 +625,184 @@ export default function Home() {
             <div className="level is-inline-grid" id="works">
               <h1 className="title has-text-success">Development works</h1>
 
-              <div className="is-margin-bottom-20">
-                <div className="hero is-success is-outlined is-margin-bottom-10">
-                  <div className="hero-body">
-                    <h3 className="title">
-                      EEVET
-                    </h3>
-                    <h4 className="subtitle">
-                      https://eevet.com
-                    </h4>
+              <div className="columns">
+                <div className="column is-margin-bottom-20">
+                  <div className="hero is-light is-outlined is-margin-bottom-10">
+                    <div className="hero-body">
+                      <h3 className="title">
+                        EEVET
+                      </h3>
+                      <h4 className="subtitle">
+                        https://eevet.com
+                      </h4>
+                    </div>
                   </div>
+                  <p>
+                    Design the machine learning platform, write the core of it, integrate natural langage processing, a recommendation engine. Work with the Chief Data Officer to make the recommender more accurate.
+                  </p>
                 </div>
-                <p>
-                  Design the machine learning platform, write the core of it, integrate natural langage processing, a recommendation engine. Work with the Chief Data Officer to make the recommender more accurate.
-                </p>
+
+                <div className="column is-margin-bottom-20">
+                  <div className="hero is-light is-outlined is-margin-bottom-10">
+                    <div className="hero-body">
+                      <h3 className="title">
+                        Event Escrow
+                      </h3>
+                      <h4 className="subtitle">
+                        https://eventescrow.com
+                      </h4>
+                    </div>
+                  </div>
+                  <p>
+                    Move payment system from Braintree to Stripe, rewrite the escrow funding, release, arbitration, invoice features and integrate them with Stripe. Fix critical Django application issues with the database structure, migrations and user registration. Fix development environment stack and stage environment. Technologies : Python, Django, Shell Scripting, Ansible, vagrant, PosgreSQL, Jquery, etc.
+                  </p>
+                </div>
+                <div className="column is-margin-bottom-20">
+                  <div className="hero is-light is-outlined is-margin-bottom-10">
+                    <div className="hero-body">
+                      <h3 className="title">
+                        Parlevel VMS
+                      </h3>
+                      <h4 className="subtitle">
+                        https://chowtime.parlevelvms.com
+                      </h4>
+                    </div>
+                  </div>
+                  <p>
+                    The VMS (Vending Management System). Participation in the service ticket feature writing, owner of the recurrence feature for service tickets with a cronjob-like system made easy to configure. Owner of a few operational and financial reports, other reports enhancements, and a lot of bug fixing in the whole VMS. Technologies : PHP with the Laravel Framework, Shell scripting, Python scripting, MySQL scripting, Bootstrap CSS, AngularJS, jquery, etc.
+                  </p>
+                </div>
               </div>
 
-              <div className="is-margin-bottom-20">
-                <div className="hero is-success is-outlined is-margin-bottom-10">
-                  <div className="hero-body">
-                    <h3 className="title">
-                      Event Escrow
-                    </h3>
-                    <h4 className="subtitle">
-                      https://eventescrow.com
-                    </h4>
+              <div className="columns">
+                <div className="column is-margin-bottom-20">
+                  <div className="hero is-light is-outlined is-margin-bottom-10">
+                    <div className="hero-body">
+                      <h3 className="title">
+                        Life is Stories
+                      </h3>
+                      <h4 className="subtitle">
+                        Still unpublished
+                      </h4>
+                    </div>
                   </div>
+                  <p>
+                    Biography writing made easy, the web application guides you through the process of writing a book with tips and hints for chapters, cover and chapter pictures upload, a large template selection, preview of your book, with the objective for the user to receive a hard cover book. Technologies : Ruby on Rails, Jquery, MySQL, Linux server administration, Stripe API, Boostrap CSS Framework, several jquery plugins for drag and drop, book preview with page turning (turn.js), etc.
+                  </p>
                 </div>
-                <p>
-                  Move payment system from Braintree to Stripe, rewrite the escrow funding, release, arbitration, invoice features and integrate them with Stripe. Fix critical Django application issues with the database structure, migrations and user registration. Fix development environment stack and stage environment. Technologies : Python, Django, Shell Scripting, Ansible, vagrant, PosgreSQL, Jquery, etc.
-                </p>
+
+                <div className="column is-margin-bottom-20">
+                  <div className="hero is-light is-outlined is-margin-bottom-10">
+                    <div className="hero-body">
+                      <h3 className="title">
+                        KAPx
+                      </h3>
+                      <h4 className="subtitle">
+                        https://kapx.kaplan.com
+                        https://online.classroom.mountwashington.edu
+                        https://opencollege.kaplan.com
+                      </h4>
+                    </div>
+                  </div>
+                  <p>
+                    Global online learning platform, participation in maintenance, enhancement and support. Technologies : Python, Google App Engine and its datastore, AWS, PHP/MySQL, Moodle, Frontend web development, social networks API, Salesforce API
+                  </p>
+                </div>
+
+                <div className="column is-margin-bottom-20">
+                  <div className="hero is-light is-outlined is-margin-bottom-10">
+                    <div className="hero-body">
+                      <h3 className="title">
+                        El Buen Fin
+                      </h3>
+                      <h4 className="subtitle">
+                        https://www.elbuenfin.org
+                        Discontinued until next event
+                      </h4>
+                    </div>
+                  </div>
+                  <p>
+                    Development in python of all the search engine and also of the API for the mobile app, and part of the website in go.  Technologies : python, go, Google App Engine and its datastore NoSQL, Jquery, Facebook API, Twitter API
+                  </p>
+                </div>
               </div>
 
-              <div className="is-margin-bottom-20">
-                <div className="hero is-success is-outlined is-margin-bottom-10">
-                  <div className="hero-body">
-                    <h3 className="title">
-                      Parlevel VMS
-                    </h3>
-                    <h4 className="subtitle">
-                      https://chowtime.parlevelvms.com
-                    </h4>
+              <div className="columns">
+                <div className="column is-margin-bottom-20">
+                  <div className="hero is-light is-outlined is-margin-bottom-10">
+                    <div className="hero-body">
+                      <h3 className="title">
+                        Deseos 2013
+                      </h3>
+                      <h4 className="subtitle">
+                        https://apps.facebook.com/miseleccion-deseos
+                      </h4>
+                    </div>
                   </div>
+                  <p>
+                    Discontinued. App Facebook for the mexican national soccer team which allowed users to write a message and vote for messages and share them on their social networks, prizes were official shirts firmed by players.  Technologies : PHP/MySQL, Jquery, Facebook API and Twitter API
+                  </p>
                 </div>
-                <p>
-                  The VMS (Vending Management System). Participation in the service ticket feature writing, owner of the recurrence feature for service tickets with a cronjob-like system made easy to configure. Owner of a few operational and financial reports, other reports enhancements, and a lot of bug fixing in the whole VMS. Technologies : PHP with the Laravel Framework, Shell scripting, Python scripting, MySQL scripting, Bootstrap CSS, AngularJS, jquery, etc.
-                </p>
+
+                <div className="column is-margin-bottom-20">
+                  <div className="hero is-light is-outlined is-margin-bottom-10">
+                    <div className="hero-body">
+                      <h3 className="title">
+                        Jackpot
+                      </h3>
+                      <h4 className="subtitle">
+                        https://apps.facebook.com/carlsjr-jackpot/
+                      </h4>
+                    </div>
+                  </div>
+                  <p>
+                    App Facebook for the Fast Food franchise Carl's Jr. , to gather information about users via Facebook offering them a chance to win gift certificates. Technologies : PHP/MySQL, Jquery, Facebook API and Twitter API
+                  </p>
+                </div>
+
+                <div className="column is-margin-bottom-20">
+                  <div className="hero is-light is-outlined is-margin-bottom-10">
+                    <div className="hero-body">
+                      <h3 className="title">
+                        Artisan location interactive vectorial map
+                      </h3>
+                      <h4 className="subtitle">
+                        http://www.fomentoculturalbanamex.org/gmap/ramas-artesanales
+                      </h4>
+                    </div>
+                  </div>
+                  <p>
+                    Technologies : Jquery with Raphael library, image processing withGIMP and Inkscape for the vectors
+                  </p>
+                </div>
               </div>
 
-              <div className="is-margin-bottom-20">
-                <div className="hero is-success is-outlined is-margin-bottom-10">
-                  <div className="hero-body">
-                    <h3 className="title">
-                      Life is Stories
-                    </h3>
-                    <h4 className="subtitle">
-                      Still unpublished
-                    </h4>
-                  </div>
-                </div>
-                <p>
-                  Biography writing made easy, the web application guides you through the process of writing a book with tips and hints for chapters, cover and chapter pictures upload, a large template selection, preview of your book, with the objective for the user to receive a hard cover book. Technologies : Ruby on Rails, Jquery, MySQL, Linux server administration, Stripe API, Boostrap CSS Framework, several jquery plugins for drag and drop, book preview with page turning (turn.js), etc.
-                </p>
-              </div>
-
-              <div className="is-margin-bottom-20">
-                <div className="hero is-success is-outlined is-margin-bottom-10">
-                  <div className="hero-body">
-                    <h3 className="title">
-                      KAPx
-                    </h3>
-                    <h4 className="subtitle">
-                      https://kapx.kaplan.com, https://online.classroom.mountwashington.edu, https://opencollege.kaplan.com
-                    </h4>
-                  </div>
-                </div>
-                <p>
-                  Global online learning platform, participation in maintenance, enhancement and support. Technologies : Python, Google App Engine and its datastore, AWS, PHP/MySQL, Moodle, Frontend web development, social networks API, Salesforce API
-                </p>
-              </div>
-
-              <div className="is-margin-bottom-20">
-                <div className="hero is-success is-outlined is-margin-bottom-10">
-                  <div className="hero-body">
-                    <h3 className="title">
-                      El Buen Fin 2012
-                    </h3>
-                    <h4 className="subtitle">
-                      https://www.elbuenfin.org
-                      Discontinued until next event
-                    </h4>
-                  </div>
-                </div>
-                <p>
-                  Development in python of all the search engine and also of the API for the mobile app, and part of the website in go.  Technologies : python, go, Google App Engine and its datastore NoSQL, Jquery, Facebook API, Twitter API
-                </p>
-              </div>
-
-              <div className="is-margin-bottom-20">
-                <div className="hero is-success is-outlined is-margin-bottom-10">
-                  <div className="hero-body">
-                    <h3 className="title">
-                      Deseos 2013
-                    </h3>
-                    <h4 className="subtitle">
-                      https://apps.facebook.com/miseleccion-deseos
-                    </h4>
-                  </div>
-                </div>
-                <p>
-                  Discontinued. App Facebook for the mexican national soccer team which allowed users to write a message and vote for messages and share them on their social networks, prizes were official shirts firmed by players.  Technologies : PHP/MySQL, Jquery, Facebook API and Twitter API
-                </p>
-              </div>
-
-              <div className="is-margin-bottom-20">
-                <div className="hero is-success is-outlined is-margin-bottom-10">
-                  <div className="hero-body">
-                    <h3 className="title">
-                      Jackpot
-                    </h3>
-                    <h4 className="subtitle">
-                      https://apps.facebook.com/carlsjr-jackpot/
-                    </h4>
-                  </div>
-                </div>
-                <p>
-                  App Facebook for the Fast Food franchise Carl's Jr. , to gather information about users via Facebook offering them a chance to win gift certificates. Technologies : PHP/MySQL, Jquery, Facebook API and Twitter API
-                </p>
-              </div>
-
-              <div className="is-margin-bottom-20">
-                <div className="hero is-success is-outlined is-margin-bottom-10">
-                  <div className="hero-body">
-                    <h3 className="title">
-                      Artisan location interactive vectorial map
-                    </h3>
-                    <h4 className="subtitle">
-                      http://www.fomentoculturalbanamex.org/gmap/ramas-artesanales
-                    </h4>
-                  </div>
-                </div>
-                <p>
-                  Technologies : Jquery with Raphael library, image processing withGIMP and Inkscape for the vectors
-                </p>
-              </div>
-
-              <div className="is-margin-bottom-20">
-                <div className="hero is-success is-outlined is-margin-bottom-10">
-                  <div className="hero-body">
-                    <h3 className="title">
-                      More on https://github.com/ThomasMarcel .
-                    </h3>
-                  </div>
-                </div>
-              </div>
+              <p>
+                More on <b>https://github.com/ThomasMarcel</b> .
+              </p>
             </div>
 
             <div className="level is-inline-grid" id="education">
-              <h1 className="title has-text-info">EDUCATION</h1>
-              <ul>
-                <li>2007 BTS – Informatique de Gestion option Administrateur de réseaux locaux d’entreprise (Network & System Administrator) - Lycée Malraux, Le Mans, FRANCE.</li>
-                <li>2004 DEUST – Informatique Systèmes et Réseaux (computer science, systems and networks) - Université du Maine Le Mans, FRANCE</li>
-                <li>2003 Baccalaureat Sciences Economiques et Sociales (Economical and Social Sciences) – Lycée Montesquieu, Le Mans, FRANCE.</li>
-              </ul>
+              <div className="is-margin-bottom-20">
+                <h1 className="title has-text-info">EDUCATION</h1>
+                <ul>
+                  <li>2007 BTS – Informatique de Gestion option Administrateur de réseaux locaux d’entreprise (Network & System Administrator) - Lycée Malraux, Le Mans, FRANCE.</li>
+                  <li>2004 DEUST – Informatique Systèmes et Réseaux (computer science, systems and networks) - Université du Maine Le Mans, FRANCE</li>
+                  <li>2003 Baccalaureat Sciences Economiques et Sociales (Economical and Social Sciences) – Lycée Montesquieu, Le Mans, FRANCE.</li>
+                </ul>
+              </div>
 
-              <h2 className="subtitle has-text-info">
-                LANGUAGE SKILLS
-              </h2>
+              <div>
+                <h2 className="subtitle has-text-info">
+                  LANGUAGE SKILLS
+                </h2>
 
-              <ul>
-                <li>French: mother language</li>
-                <li>Spanish: native</li>
-                <li>English: written- fluent, spoken- fluent</li>
-              </ul>
+                <ul>
+                  <li>French: mother language</li>
+                  <li>Spanish: native</li>
+                  <li>English: written- fluent, spoken- fluent</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
