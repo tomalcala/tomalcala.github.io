@@ -10,6 +10,8 @@ export default function Home() {
   return (
     <div>
       <p>
+        <i className="fas fa-user"></i>
+        <i className="fab fa-github-square"></i>
         This is an example single page app built
         with React and React&nbsp;Router using {' '}
         <b>BrowserRouter</b>. Navigate with the links below and
