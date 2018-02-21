@@ -1,0 +1,11 @@
+#intro li {
+  margin: 5px;
+}
+
+#intro svg, #intro i {
+  margin: 5px;
+}
+
+.is-inline-grid {
+  display: inline-grid;
+}

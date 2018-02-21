@@ -10,22 +10,10 @@ import Home from './home';
 export default function App() {
   return (
     <div>
-      <h1>Single Page Apps for GitHub Pages</h1>
-
-      <nav>
-        <ul>
-          <li>Home</li>
-        </ul>
-      </nav>
-
       <Switch>
         <Route exact path="/" component={Home} />
         <Route component={PageNotFound} />
       </Switch>
-
-      <div>
-        <h2>Test App</h2>
-      </div>
     </div>
   );
 }
