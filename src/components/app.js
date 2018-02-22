@@ -12,7 +12,7 @@ import Home from './home';
 export default function App() {
   return (
     <div>
-      <nav className="navbar is-dark is-fixed-top" aria-label="main navigation">
+      <nav className="navbar is-dark is-fixed-top no-print" aria-label="main navigation">
         <div className="navbar-brand">
           <div className="navbar-item">
             <Link to="/">
