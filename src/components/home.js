@@ -491,12 +491,11 @@ export default function Home() {
                     </div>
                   </div>
                   <p>
-                    Move payment system from Braintree to Stripe, rewrite the escrow funding,
-                    release, arbitration, invoice features and integrate them with Stripe. Fix
-                    critical Django application issues with the database structure, migrations and
-                    user registration. Fix development environment stack and stage environment.
-                    Technologies : Python, Django, Shell Scripting, Ansible, vagrant, PosgreSQL,
-                    Jquery, etc.
+                    <ul>
+                      <li>Ticketing system working on the Blockchain</li>
+                      <li>Payment system on Stripe</li>
+                      <li>Escrow funding, fund release, arbitration, invoicing</li>
+                    </ul>
                   </p>
                 </div>
                 <div className="column is-margin-bottom-20">
@@ -511,12 +510,11 @@ export default function Home() {
                     </div>
                   </div>
                   <p>
-                    The VMS (Vending Management System). Participation in the service ticket
-                    feature writing, owner of the recurrence feature for service tickets with a
-                    cronjob-like system made easy to configure. Owner of a few operational and
-                    financial reports, other reports enhancements, and a lot of bug fixing in the
-                    whole VMS. Technologies : PHP with the Laravel Framework, Shell scripting,
-                    Python scripting, MySQL scripting, Bootstrap CSS, AngularJS, jquery, etc.
+                    <ul>
+                      <li>Service ticket system</li>
+                      <li>Recurrence for service tickets</li>
+                      <li>Operational and financial reports</li>
+                    </ul>
                   </p>
                 </div>
               </div>
@@ -534,13 +532,11 @@ export default function Home() {
                     </div>
                   </div>
                   <p>
-                    Biography writing made easy, the web application guides you through the
-                    process of writing a book with tips and hints for chapters, cover and chapter
-                    pictures upload, a large template selection, preview of your book, with the
-                    objective for the user to receive a hard cover book. Technologies : Ruby on
-                    Rails, Jquery, MySQL, Linux server administration, Stripe API, Boostrap CSS
-                    Framework, several jquery plugins for drag and drop, book preview with page
-                    turning (turn.js), etc.
+                    <ul>
+                      <li>Fix poor design and code</li>
+                      <li>Book design preview</li>
+                      <li>Revamp the complete frontend</li>
+                    </ul>
                   </p>
                 </div>
 
@@ -558,10 +554,11 @@ export default function Home() {
                     </div>
                   </div>
                   <p>
-                    Global online learning platform, participation in maintenance, enhancement
-                    and support. Technologies : Python, Google App Engine and its datastore,
-                    AWS, PHP/MySQL, Moodle, Frontend web development, social networks API,
-                    Salesforce API
+                    <ul>
+                      <li>AWS resources autoscaling</li>
+                      <li>Global fixes and enhancements</li>
+                      <li>Evaluate and fix accessibility</li>
+                    </ul>
                   </p>
                 </div>
 
@@ -578,9 +575,12 @@ export default function Home() {
                     </div>
                   </div>
                   <p>
-                    Development in python of all the search engine and also of the API for the
-                    mobile app, and part of the website in go.  Technologies : python, go,
-                    Google App Engine and its datastore NoSQL, Jquery, Facebook API, Twitter API
+                    <ul>
+                      <li>Architecture, design and code</li>
+                      <li>Search engine with a NoSQL DB</li>
+                      <li>Scaling for 3M+ daily active users</li>
+                      <li>Request caching to minimize resource cost</li>
+                    </ul>
                   </p>
                 </div>
               </div>
