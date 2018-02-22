@@ -172,7 +172,6 @@ export default function Home() {
                           Coursera: Programming Mobile Applications for Android Handheld Systems
                           – Grade achieved: 97.9%
                         </li>
-                        <li>Six Sigma: Yellow Belt</li>
                       </ul>
                     </div>
                   </div>
@@ -198,7 +197,7 @@ export default function Home() {
                         <div className="level">
                           <p className="level-left">
                             <i className="fas fa-map-marker" />
-                            Nashville, TN/San Antonio, TX
+                            Nashville, TN / San Antonio, TX
                           </p>
                           <p className="level-right">
                             <i className="fas fa-mouse-pointer" />
@@ -215,7 +214,7 @@ export default function Home() {
                       <h4 className="heading has-text-danger">Achievements</h4>
                       <ul>
                         <li>
-                          Proud alumni of the Project Music accelerator program in the 2017
+                          Proud alumnus of the Project Music accelerator program in the 2017
                           cohort from the Nashville Entrepreneur Center. (Jan 2017 – May 2017)
                         </li>
                         <li>Define the current Tech {"Department's"} workflow</li>
@@ -253,7 +252,7 @@ export default function Home() {
                       <h4 className="heading has-text-danger">Achievements</h4>
                       <ul>
                         <li>Write a ticket emission system based on the Blockchain</li>
-                        <li>Rewriting the escrow, invoice and arbitration processes</li>
+                        <li>Rewrite the escrow, invoice and arbitration processes</li>
                         <li>Integrate Stripe payment system</li>
                         <li>Revamp the Django backend</li>
                       </ul>
@@ -399,7 +398,7 @@ export default function Home() {
                       <h4 className="heading has-text-danger">Achievements</h4>
                       <ul>
                         <li>El Buen Fin: 3M+ daily active users</li>
-                        <li>High demand webapps and FB apps design</li>
+                        <li>High demand webapps and Facebook apps design</li>
                         <li>Close integration of social media</li>
                       </ul>
                     </p>
@@ -503,7 +502,7 @@ export default function Home() {
                   <p>
                     <ul>
                       <li>Machine Learning</li>
-                      <li>Chatbot with Natural Langage Processing</li>
+                      <li>Chatbot with Natural Language Processing</li>
                       <li>Recommendation engine</li>
                       <li>Django REST backend</li>
                       <li>Single page Angular frontend</li>
@@ -601,7 +600,7 @@ export default function Home() {
                   </div>
                   <p>
                     <ul>
-                      <li>AWS resources autoscaling</li>
+                      <li>AWS resources auto-scaling</li>
                       <li>Global fixes and enhancements</li>
                       <li>Evaluate and fix accessibility</li>
                     </ul>
@@ -625,7 +624,7 @@ export default function Home() {
                   <p>
                     <ul>
                       <li>Architecture, design and code</li>
-                      <li>Search engine with a NoSQL DB</li>
+                      <li>Search engine with a NoSQL database</li>
                       <li>Scaling for 3M+ daily active users</li>
                       <li>Request caching to minimize resource cost</li>
                     </ul>
