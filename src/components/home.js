@@ -84,16 +84,18 @@ export default function Home() {
                         <li>HTML5 CSS3</li>
                         <li>JavaScript, TypeScript</li>
                         <li>
-                          Frameworks: Django, Flask, Ruby on Rails, Laravel, Moodle, Wordpress
+                          Frameworks (Django, Flask, Ruby on Rails, Laravel, Moodle, Wordpress)
                         </li>
                         <li>
-                          Frontend Frameworks: Angular, React, Jquery, Bootstrap, Material, Bulma
+                          Frontend Frameworks (Angular, React, Jquery, Bootstrap, Material, Bulma)
                         </li>
-                        <li>Message queues</li>
+                        <li>Message queues (Sidekiq)</li>
                         <li>Automation tools (Ansible)</li>
                         <li>Virtual Machines (Vagrant, Docker, Laravel Homestead)</li>
                       </ul>
                     </div>
+                  </div>
+                  <div className="column">
                     <div className="is-margin-bottom-20">
                       <h3 className="subtitle has-text-primary">Project Management</h3>
                       <ul>
@@ -104,6 +106,8 @@ export default function Home() {
                         <li>Continuous Integration, Continuous Deployment</li>
                       </ul>
                     </div>
+                  </div>
+                  <div className="column">
                     <div className="is-margin-bottom-20">
                       <h3 className="subtitle has-text-primary">Systems Administration</h3>
                       <ul>
@@ -111,6 +115,10 @@ export default function Home() {
                         <li>Linux administration</li>
                       </ul>
                     </div>
+                  </div>
+                </div>
+                <div className="columns">
+                  <div className="column">
                     <div className="is-margin-bottom-20">
                       <h3 className="subtitle has-text-primary">Data</h3>
                       <ul>
@@ -119,6 +127,8 @@ export default function Home() {
                         <li>Apache Spark administration and development with PySpark</li>
                       </ul>
                     </div>
+                  </div>
+                  <div className="column">
                     <div className="is-margin-bottom-20">
                       <h3 className="subtitle has-text-primary">Third Party Services</h3>
                       <ul>
@@ -136,7 +146,12 @@ export default function Home() {
                       </ul>
                     </div>
                   </div>
+                  <div className="column">
+                    <div />
+                  </div>
+                </div>
 
+                <div className="columns">
                   <div className="column">
                     <div className="is-margin-bottom-20">
                       <h3 className="subtitle has-text-primary">Certificates</h3>
@@ -149,6 +164,8 @@ export default function Home() {
                       </ul>
                     </div>
 
+                  </div>
+                  <div className="column">
                     <div className="is-margin-bottom-20">
                       <h3 className="subtitle has-text-primary">Courses</h3>
 
@@ -162,6 +179,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
 
