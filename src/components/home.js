@@ -22,7 +22,9 @@ export default function Home() {
                 </p>
                 <ul>
                   <li>
-                    Eternal learner and follower of the technological advancement edge.
+                    Gentilhomme,
+                    eternal learner,
+                    pursuer of the tech edge to achieve greatness.
                   </li>
                 </ul>
               </div>
@@ -77,21 +79,15 @@ export default function Home() {
                     <div className="is-margin-bottom-20">
                       <h3 className="subtitle has-text-primary">Programming Languages</h3>
                       <ul>
-                        <li>Python</li>
-                        <li>Ruby</li>
-                        <li>PHP</li>
-                        <li>Shell</li>
-                        <li>HTML5 CSS3</li>
-                        <li>JavaScript, TypeScript</li>
+                        <li>Python, Ruby, PHP</li>
+                        <li>JavaScript, TypeScript, HTML5, CSS3</li>
                         <li>
-                          Frameworks (Django, Flask, Ruby on Rails, Laravel, Moodle, Wordpress)
+                          Frameworks (Django, Flask, Ruby on Rails, Laravel)
                         </li>
                         <li>
-                          Frontend Frameworks (Angular, React, Jquery, Bootstrap, Material, Bulma)
+                          Frontend Frameworks (Angular, React, Jquery, Bootstrap)
                         </li>
-                        <li>Message queues (Sidekiq)</li>
-                        <li>Automation tools (Ansible)</li>
-                        <li>Virtual Machines (Vagrant, Docker, Laravel Homestead)</li>
+                        <li>Deployment automation (Vagrant, Docker, Ansible)</li>
                       </ul>
                     </div>
                   </div>
@@ -132,15 +128,9 @@ export default function Home() {
                     <div className="is-margin-bottom-20">
                       <h3 className="subtitle has-text-primary">Third Party Services</h3>
                       <ul>
-                        <li>Stripe API development</li>
-                        <li>Facebook App development with Facebook API and SDKs</li>
+                        <li>Stripe API</li>
                         <li>
-                          Development with API and SDK (Slack, Facebook, Twitter, Youtube,
-                          Google Maps)
-                        </li>
-                        <li>
-                          Salesforce (for Business Intelligence and as a developer with its API
-                          and SDK)
+                          API and SDKs (Slack, Facebook, Twitter, Youtube, Google Maps, Salesforce)
                         </li>
                         <li>Digital marketing (Google Analytics, AdWords, massive mailing...)</li>
                       </ul>
