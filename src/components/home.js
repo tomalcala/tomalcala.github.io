@@ -24,7 +24,7 @@ export default function Home() {
                   <li>
                     Gentilhomme,
                     eternal learner,
-                    pursuer of the tech edge to achieve greatness.
+                    pursuer of the tech edge.
                   </li>
                 </ul>
               </div>
