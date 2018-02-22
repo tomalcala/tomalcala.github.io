@@ -35,7 +35,9 @@ export default function Home() {
             <ul>
               <li>
                 <i className="fas fa-at" />
-                thomas.alcala@gmail.com
+                <a href="mailto:thomas.alcala@gmail.com">
+                  thomas.alcala@gmail.com
+                </a>
               </li>
               <li>
                 <i className="fas fa-phone" />
@@ -47,15 +49,21 @@ export default function Home() {
               </li>
               <li>
                 <i className="fas fa-mouse-pointer" />
-                https://tomalcala.github.io
+                <a href="https://tomalcala.github.io" target="_blank" rel="noopener noreferrer">
+                  https://tomalcala.github.io
+                </a>
               </li>
               <li>
                 <i className="fas fa-mouse-pointer" />
-                https://eevet.com
+                <a href="https://eevet.com" target="_blank" rel="noopener noreferrer">
+                  https://eevet.com
+                </a>
               </li>
               <li>
                 <i className="fab fa-linkedin" />
-                https://www.linkedin.com/in/talcala
+                <a href="https://www.linkedin.com/in/talcala" target="_blank" rel="noopener noreferrer">
+                  https://www.linkedin.com/in/talcala
+                </a>
               </li>
               <li>
                 <i className="fab fa-github" />
@@ -194,7 +202,9 @@ export default function Home() {
                           </p>
                           <p className="level-right">
                             <i className="fas fa-mouse-pointer" />
-                            https://eevet.com
+                            <a href="https://eevet.com" target="_blank" rel="noopener noreferrer">
+                              https://eevet.com
+                            </a>
                           </p>
                         </div>
                       </div>
@@ -231,7 +241,9 @@ export default function Home() {
                           </p>
                           <p className="level-right">
                             <i className="fas fa-mouse-pointer" />
-                            https://eventescrow.com/
+                            <a href="https://eventescrow.com/" target="_blank" rel="noopener noreferrer">
+                              https://eventescrow.com/
+                            </a>
                           </p>
                         </div>
                       </div>
@@ -273,11 +285,15 @@ export default function Home() {
                             <ul>
                               <li>
                                 <i className="fas fa-mouse-pointer" />
-                                https://chowtime.parlevelvms.com
+                                <a href="https://chowtime.parlevelvms.com" target="_blank" rel="noopener noreferrer">
+                                  https://chowtime.parlevelvms.com
+                                </a>
                               </li>
                               <li>
                                 <i className="fas fa-mouse-pointer" />
-                                http://parlevelsystems.com
+                                <a href="http://parlevelsystems.com" target="_blank" rel="noopener noreferrer">
+                                  http://parlevelsystems.com
+                                </a>
                               </li>
                             </ul>
                           </p>
@@ -318,15 +334,21 @@ export default function Home() {
                             <ul>
                               <li>
                                 <i className="fas fa-mouse-pointer" />
-                                https://kapx.kaplan.com
+                                <a href="https://kapx.kaplan.com" target="_blank" rel="noopener noreferrer">
+                                  https://kapx.kaplan.com
+                                </a>
                               </li>
                               <li>
                                 <i className="fas fa-mouse-pointer" />
-                                https://online.classroom.mountwashington.edu
+                                <a href="https://online.classroom.mountwashington.edu" target="_blank" rel="noopener noreferrer">
+                                  https://online.classroom.mountwashington.edu
+                                </a>
                               </li>
                               <li>
                                 <i className="fas fa-mouse-pointer" />
-                                https://opencollege.kaplan.com
+                                <a href="https://opencollege.kaplan.com" target="_blank" rel="noopener noreferrer">
+                                  https://opencollege.kaplan.com
+                                </a>
                               </li>
                             </ul>
                           </p>
@@ -471,9 +493,11 @@ export default function Home() {
                       <h3 className="title">
                         EEVET
                       </h3>
-                      <h4 className="subtitle">
-                        https://eevet.com
-                      </h4>
+                      <a href="https://eevet.com" target="_blank" rel="noopener noreferrer">
+                        <h4 className="subtitle">
+                          https://eevet.com
+                        </h4>
+                      </a>
                     </div>
                   </div>
                   <p>
@@ -493,9 +517,11 @@ export default function Home() {
                       <h3 className="title">
                         Event Escrow
                       </h3>
-                      <h4 className="subtitle">
-                        https://eventescrow.com
-                      </h4>
+                      <a href="https://eventescrow.com" target="_blank" rel="noopener noreferrer">
+                        <h4 className="subtitle">
+                          https://eventescrow.com
+                        </h4>
+                      </a>
                     </div>
                   </div>
                   <p>
@@ -512,9 +538,11 @@ export default function Home() {
                       <h3 className="title">
                         Parlevel VMS
                       </h3>
-                      <h4 className="subtitle">
-                        https://chowtime.parlevelvms.com
-                      </h4>
+                      <a href="https://chowtime.parlevelvms.com" target="_blank" rel="noopener noreferrer">
+                        <h4 className="subtitle">
+                          https://chowtime.parlevelvms.com
+                        </h4>
+                      </a>
                     </div>
                   </div>
                   <p>
@@ -554,11 +582,21 @@ export default function Home() {
                       <h3 className="title">
                         KAPx
                       </h3>
-                      <h4 className="subtitle">
-                        https://kapx.kaplan.com
-                        https://online.classroom.mountwashington.edu
-                        https://opencollege.kaplan.com
-                      </h4>
+                      <a href="https://chowtime.parlevelvms.com" target="_blank" rel="noopener noreferrer">
+                        <h4 className="subtitle">
+                          https://kapx.kaplan.com
+                        </h4>
+                      </a>
+                      <a href="https://chowtime.parlevelvms.com" target="_blank" rel="noopener noreferrer">
+                        <h4 className="subtitle">
+                          https://online.classroom.mountwashington.edu
+                        </h4>
+                      </a>
+                      <a href="https://chowtime.parlevelvms.com" target="_blank" rel="noopener noreferrer">
+                        <h4 className="subtitle">
+                          https://opencollege.kaplan.com
+                        </h4>
+                      </a>
                     </div>
                   </div>
                   <p>
@@ -576,10 +614,12 @@ export default function Home() {
                       <h3 className="title">
                         El Buen Fin
                       </h3>
-                      <h4 className="subtitle">
-                        https://www.elbuenfin.org
-                        Discontinued until next event
-                      </h4>
+                      <a href="https://www.elbuenfin.org" target="_blank" rel="noopener noreferrer">
+                        <h4 className="subtitle">
+                          https://www.elbuenfin.org
+                          Discontinued until next event
+                        </h4>
+                      </a>
                     </div>
                   </div>
                   <p>
@@ -594,7 +634,12 @@ export default function Home() {
               </div>
 
               <p>
-                More on <b>https://github.com/ThomasMarcel</b> .
+                More on&nbsp;
+                <b>
+                  <a href="https://github.com/ThomasMarcel" target="_blank" rel="noopener noreferrer">
+                    https://github.com/ThomasMarcel
+                  </a>
+                </b> .
               </p>
             </div>
 

@@ -1,3 +1,11 @@
+@media print
+{    
+  .no-print, .no-print *
+  {
+    display: none !important;
+  }
+}
+
 #intro li {
   margin: 5px;
 }
