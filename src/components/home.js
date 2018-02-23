@@ -360,7 +360,7 @@ export default function Home() {
                       <ul>
                         <li>
                           Design and write the AWS resources auto-scaling for the complete
-                          infrasctructure
+                          infrastructure
                         </li>
                         <li>Assist the learning team with internal tools</li>
                         <li>Build communication between the apps and Salesforce</li>
